@@ -39,21 +39,23 @@ text-decoration: none;
     flex-direction: column;
     background-color: rgba(128, 128, 128, 0.308);
     width: 60%;
-    height: 100vh;
+    /* height: 100vh; */
     margin-top: 30px;
     margin-left: 22px;
 }
 .info-picture{
     background-color: rgba(255, 255, 0, 0.459);
     padding: 50px;
+    width: 90%;
+    /* height: %; */
 }
 .info-picture img{
     float:right;
 }
 .info{
     line-height: 30px;
-    width: 90%;
-    font-size: 20px;
+    width: 95%;
+    font-size: 16px;
     font-family:cursive;
     margin-left: 25px;
 }
@@ -67,3 +69,13 @@ text-decoration: none;
     #date{
     margin-left: 25px;
 }
+.right-1 li{
+    
+    /* list-style-type: none; */
+}
+.right-1 ul{
+    list-style-image: url(schedule.png);
+    /* text-align: center; */
+    /* postavqna na ikoni pred lists */
+}
+
