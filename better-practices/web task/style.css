@@ -24,7 +24,7 @@ header ul{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #logo{
-padding-left: 50px;
+padding-left: 17px;
 }
 header li a{
 color: white;
@@ -41,7 +41,7 @@ text-decoration: none;
     width: 60%;
     height: 100vh;
     margin-top: 30px;
-    margin-left: 20px;
+    margin-left: 22px;
 }
 .info-picture{
     background-color: rgba(255, 255, 0, 0.459);
@@ -52,10 +52,17 @@ text-decoration: none;
 }
 .info{
     line-height: 30px;
-    width: 600px;
+    width:90%;
     font-size: 20px;
     font-family:cursive;
 }
 .main-right{
     width: 40%;
+}
+.title{
+    margin-left: 25px;
+    margin-bottom: 0;
+}
+    #date{
+    margin-left: 25px;
 }
