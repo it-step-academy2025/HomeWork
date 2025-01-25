@@ -1,6 +1,11 @@
 header{
     display: flex;
     background-color: rgba(43, 41, 41, 0.733);
+    /* position:relative; */
+    /* top: 0; */
+    /* left: 0; */
+    /* width: 150%; */
+    overflow: hidden;
 }
 header ul{
     list-style: none;
@@ -26,8 +31,10 @@ text-decoration: none;
     display: flex;
     flex-direction: column;
     background-color: rgba(128, 128, 128, 0.308);
-    width: 70%;
+    width: 60%;
     height: 100vh;
+    margin-top: 30px;
+    margin-left: 0px;
 }
 .info-picture{
     background-color: rgba(255, 255, 0, 0.459);
@@ -41,5 +48,7 @@ text-decoration: none;
     width: 600px;
     font-size: 20px;
     font-family:cursive;
-    
+}
+.main-right{
+    width: 40%;
 }
