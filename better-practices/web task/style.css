@@ -1,3 +1,10 @@
+/* за премахване на пространството отстрани */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 header{
     display: flex;
     background-color: rgba(43, 41, 41, 0.733);
