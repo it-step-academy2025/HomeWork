@@ -1,0 +1,45 @@
+header{
+    display: flex;
+    background-color: rgba(43, 41, 41, 0.733);
+}
+header ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 70px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#logo{
+padding-left: 50px;
+}
+header li a{
+color: white;
+font-size: 20px;
+text-decoration: none;
+}
+.container{
+    display: flex;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(128, 128, 128, 0.308);
+    width: 70%;
+    height: 100vh;
+}
+.info-picture{
+    background-color: rgba(255, 255, 0, 0.459);
+    padding: 50px;
+}
+.info-picture img{
+    float:right;
+}
+.info{
+    line-height: 30px;
+    width: 600px;
+    font-size: 20px;
+    font-family:cursive;
+    
+}
